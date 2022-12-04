@@ -7,4 +7,16 @@ pub mod utils {
         file.read_to_string(&mut contents).unwrap();
         contents
     }
+
+    pub fn process_lines<F>(file: &String, mut f: F) -> Vec<u32>
+    where
+        F: FnMut(&str) -> u32,
+    {
+        let mut res = vec![0, 0, 0];
+        for elf_list in file.lines() {
+            let val = f(elf_list);
+            res.push(val);
+        }
+        res
+    }
 }

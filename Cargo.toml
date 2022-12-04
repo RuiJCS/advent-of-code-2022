@@ -11,3 +11,7 @@ edition = "2021"
 [[bin]]
 name = "calories"
 path = "src/calories.rs"
+
+[[bin]]
+name = "rps"
+path = "src/rps.rs"
