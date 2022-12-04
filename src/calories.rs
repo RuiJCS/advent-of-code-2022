@@ -33,7 +33,7 @@ where
     let elfs_lines = file.rsplit("\n\n");
     for elf_list in elfs_lines {
         // println!("{}\n============================", elf_list);
-        let val = count_elf_calories(elf_list);
+        let val = f(elf_list);
         res.push(val);
     }
     res.sort();

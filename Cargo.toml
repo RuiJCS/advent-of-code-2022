@@ -19,3 +19,7 @@ path = "src/rps.rs"
 [[bin]]
 name = "rucksack"
 path = "src/rucksack.rs"
+
+[[bin]]
+name = "cleaning"
+path = "src/cleaning.rs"
