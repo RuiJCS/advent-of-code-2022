@@ -15,3 +15,7 @@ path = "src/calories.rs"
 [[bin]]
 name = "rps"
 path = "src/rps.rs"
+
+[[bin]]
+name = "rucksack"
+path = "src/rucksack.rs"
