@@ -30,3 +30,7 @@ path = "src/cleaning.rs"
 [[bin]]
 name = "moves"
 path = "src/moves.rs"
+
+[[bin]]
+name = "signal"
+path = "src/signal.rs"
