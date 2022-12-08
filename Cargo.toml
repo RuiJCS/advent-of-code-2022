@@ -32,5 +32,9 @@ name = "moves"
 path = "src/moves.rs"
 
 [[bin]]
+name = "commands"
+path = "src/commands.rs"
+
+[[bin]]
 name = "signal"
 path = "src/signal.rs"
