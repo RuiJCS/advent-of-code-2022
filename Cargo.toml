@@ -38,3 +38,8 @@ path = "src/commands.rs"
 [[bin]]
 name = "signal"
 path = "src/signal.rs"
+
+
+[[bin]]
+name = "trees"
+path = "src/trees.rs"
