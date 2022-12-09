@@ -39,7 +39,10 @@ path = "src/commands.rs"
 name = "signal"
 path = "src/signal.rs"
 
-
 [[bin]]
 name = "trees"
 path = "src/trees.rs"
+
+[[bin]]
+name = "rope"
+path = "src/rope.rs"
