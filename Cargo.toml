@@ -46,3 +46,7 @@ path = "src/trees.rs"
 [[bin]]
 name = "rope"
 path = "src/rope.rs"
+
+[[bin]]
+name = "cpu"
+path = "src/cpu.rs"
