@@ -60,3 +60,8 @@ path = "src/monkeys.rs"
 [[bin]]
 name = "map"
 path = "src/map.rs"
+
+[[bin]]
+name = "emergency"
+path = "src/emergency.rs"
+
