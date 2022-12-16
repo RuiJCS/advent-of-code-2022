@@ -56,3 +56,7 @@ path = "src/cpu.rs"
 [[bin]]
 name = "monkeys"
 path = "src/monkeys.rs"
+
+[[bin]]
+name = "map"
+path = "src/map.rs"
