@@ -65,3 +65,14 @@ path = "src/map.rs"
 name = "emergency"
 path = "src/emergency.rs"
 
+[[bin]]
+name = "valve"
+path = "src/valve.rs"
+
+[[bin]]
+name = "encrypted"
+path = "src/encrypted.rs"
+
+[[bin]]
+name = "monkey_math"
+path = "src/monkey_math.rs"
