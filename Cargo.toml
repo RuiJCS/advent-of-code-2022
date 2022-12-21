@@ -72,7 +72,3 @@ path = "src/valve.rs"
 [[bin]]
 name = "encrypted"
 path = "src/encrypted.rs"
-
-[[bin]]
-name = "monkey_math"
-path = "src/monkey_math.rs"
