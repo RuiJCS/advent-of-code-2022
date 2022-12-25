@@ -76,3 +76,7 @@ path = "src/encrypted.rs"
 [[bin]]
 name = "monkey_math"
 path = "src/monkey_math.rs"
+
+[[bin]]
+name = "password"
+path = "src/password.rs"
