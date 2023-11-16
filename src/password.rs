@@ -244,7 +244,7 @@ fn end_or_whitespace_horizontal(map: &Vec<char>, direction: i32) -> usize {
 }
 
 fn end_or_whitespace(map: &Vec<Vec<char>>, direction: (i32, i32), position: (i32, i32)) -> usize {
-    if direction == 1 {
+    if direction.1 == 1 {
         println!("{position:?}");
         *map.iter()
             .enumerate()

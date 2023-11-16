@@ -11,6 +11,7 @@ edition = "2021"
 [dependencies]
 serde = { version = "1.0", features = ["derive"] }
 serde_json = "1.0"
+regex = "*"
 
 
 [[bin]]
@@ -80,3 +81,7 @@ path = "src/monkey_math.rs"
 [[bin]]
 name = "password"
 path = "src/password.rs"
+
+[[bin]]
+name = "beacons"
+path = "src/beacons.rs"
